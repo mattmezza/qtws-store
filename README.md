@@ -13,5 +13,10 @@ List of commands:
 - `qtws-store help` -> shows help dialog
 - `qtws-store version` -> the store version you are running
 
+There are some APIs
+
+- `https://mattmezza.github.io/qtws-store/apps.json` this gets you the full list of the available apps
+- `https://mattmezza.github.io/qtws-store/apps/name-app/app.json` gets you the single app manifest file
+
 
 Matteo Merola
