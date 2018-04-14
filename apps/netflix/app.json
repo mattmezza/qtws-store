@@ -1,0 +1,10 @@
+{
+  "name": "Netflix",
+  "scope": ["netflix.com"],
+  "plugins": [],
+  "home": "http://netflix.com",
+  "icon": "icon.svg",
+  "saveSession": true,
+  "multimedia": true,
+  "version": "1"
+}

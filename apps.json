@@ -1,0 +1,55 @@
+[
+  {
+    "author": {
+      "name": "Simone Scalabrino",
+      "email": ""
+    },
+    "dir": "google-drive",
+    "tags": [
+      "google",
+      "drive"
+    ]
+  },
+  {
+    "author": {
+      "name": "Simone Scalabrino",
+      "email": ""
+    },
+    "dir": "google-maps",
+    "tags": [
+      "google",
+      "maps"
+    ]
+  },
+  {
+    "author": {
+      "name": "Simone Scalabrino",
+      "email": ""
+    },
+    "dir": "google-photos",
+    "tags": [
+      "google",
+      "photos"
+    ]
+  },
+  {
+    "author": {
+      "name": "Simone Scalabrino",
+      "email": ""
+    },
+    "dir": "netflix",
+    "tags": [
+      "video"
+    ]
+  },
+  {
+    "author": {
+      "name": "Simone Scalabrino",
+      "email": ""
+    },
+    "dir": "youtube",
+    "tags": [
+      "video"
+    ]
+  }
+]

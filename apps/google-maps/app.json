@@ -1,0 +1,10 @@
+{
+  "name": "Google Maps",
+  "scope": ["https?\:\/\/.*\.google\.com\/maps(?:\/.*|)", "https?\:\/\/maps\.google\.com(?:\/.*|)"],
+  "plugins": [],
+  "home": "http://maps.google.com/",
+  "icon": "icon.svg",
+  "saveSession": false,
+  "menuDisabled": true,
+  "version": "1"
+}
