@@ -4,11 +4,13 @@ require 'json'
 def update()
   puts "Updating store..."
   system("git fetch")
+  puts "Done updating pls run upgrade"
 end
 
 def upgrade()
   puts "Upgrading store..."
   system("git pull")
+  system("git --no-pager log -1 --oneline")
 end
 
 def launch(app)
@@ -18,8 +20,7 @@ def launch(app)
 end
 
 def search(q)
-  puts "searching for " + q + "..."
-  puts
+  puts "searching for " + q + "...\n"
   apps = JSON.parse(File.read('apps.json'))
   filtered = apps.select{ |app| app["dir"].downcase().include? q.downcase }
   filtered.map{ |app|
@@ -30,11 +31,11 @@ end
 
 def version()
   version = "0.0.1"
-  puts "Version ", version
+  puts "Version " + version
 end
 
 def help(command)
-  puts "help " + command
+  puts "qtws-store [update|upgrade|search|launch|version]"
 end
 
 command = ARGV[0] || ""
