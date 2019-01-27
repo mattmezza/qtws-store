@@ -1,0 +1,1 @@
+ruby qtws-store.rb %*
