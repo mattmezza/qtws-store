@@ -2,7 +2,7 @@
     "name": "SoundCloud",
     "scope": ["soundcloud.com"],
     "home": "https://soundcloud.com/",
-    "icon": "icon.png",
+    "icon": "icon.svg",
     "plugins": [],
     "saveSession": true,
     "multimedia": true,
