@@ -1,0 +1,29 @@
+{
+    "name": "SoundCloud",
+    "scope": ["soundcloud.com"],
+    "home": "https://soundcloud.com/",
+    "icon": "icon.svg",
+    "plugins": [],
+    "saveSession": true,
+    "multimedia": true,
+    "version": 0,
+    "menu":  [
+        {
+            "title": "Home",
+            "action": "https://soundcloud.com/discover"
+        },
+        {
+            "title": "Stream",
+            "action": "https://soundcloud.com/stream"
+        },
+        {
+            "title": "Library",
+            "action": "https://soundcloud.com/you/library"
+        },
+        {
+            "title": "You",
+            "action": "https://soundcloud.com/you"
+        }
+
+    ]
+}
